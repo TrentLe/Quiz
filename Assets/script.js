@@ -1,14 +1,28 @@
 var timerCount = 90;
 
- 
+function startQuiz() {
+
+    function quizQuestions() {
+
+
+
+    }
+    
+    function results() {
+
+    }
+
 
 function startTime() {
     timer = setInterval(function(){
         timerCount--;
-        timerElement.textContent = timerCount;
-        alert('You have' + timerCount + 'seconds left');
+        timerElement.textContent = 'You have' + timerCount + 'seconds left';
 
     },1000)
 }
 
 startTime();
+
+submitButton
+
+}
